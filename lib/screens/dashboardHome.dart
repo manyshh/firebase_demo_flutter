@@ -30,7 +30,6 @@ class _DashBoardHomeState extends State<DashBoardHome> {
                     actions: <Widget>[
                       TextButton(
                         onPressed: () {
-                          print("Sign Out");
                           FirebaseAuth.instance.signOut().then((value) => {
                                 Navigator.pushNamed(context, Routes().loginPage)
                               });

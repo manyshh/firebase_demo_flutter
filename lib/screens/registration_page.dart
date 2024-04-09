@@ -555,7 +555,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
         },
       );
       return false;
-    } else if (_passwordController != _confirmPasswordController) {
+    } else if (_passwordController.text != _confirmPasswordController.text) {
       await showDialog(
         context: context,
         builder: (BuildContext context) {

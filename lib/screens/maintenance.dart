@@ -17,6 +17,7 @@ class _MaintenanceState extends State<Maintenance> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Maintenance"),
+        centerTitle: true,
         actions: [
           IconButton(
             onPressed: () async {

@@ -15,6 +15,7 @@ class _DiagnosticsState extends State<Diagnostics> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Diagnostics"),
+        centerTitle: true,
         actions: [
           IconButton(
             onPressed: () async {
