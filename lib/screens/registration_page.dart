@@ -442,7 +442,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                   ? TextSpan(
                       text: ' *',
                       style: TextStyle(
-                        color: Colors_App().redAccent,
+                        color: Colors_App().redColor,
                         fontWeight: FontWeight.w500,
                       ),
                     )
